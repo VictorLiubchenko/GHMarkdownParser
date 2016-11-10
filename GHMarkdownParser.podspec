@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/OliverLetterer/GHMarkdownParser'
   s.author   = { 'Oliver Letterer' => 'oliver.letterer@gmail.com' }
   s.source   = { :git => 'https://github.com/OliverLetterer/GHMarkdownParser.git', :tag => s.version.to_s, :submodules => 'true' }
-  s.public_header_files = '**/*.h'
+  s.public_header_files = 'discount/*.h'
   s.source_files = 'discount/config.h', 'discount/setup.c', 'discount/tags.{h,c}', 
     'discount/html5.c', 'discount/emmatch.c', 'discount/Csio.c',  'discount/xml.c', 'discount/resource.c', 
     'discount/generate.c', 'discount/markdown.{h,c}', 'discount/mkdir.{c,h}', 'discount/cstring.h',
