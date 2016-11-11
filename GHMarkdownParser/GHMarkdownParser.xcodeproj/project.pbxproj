@@ -29,6 +29,8 @@
 		279A7E9B18A89AB8007AA2CC /* tags.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5261B13E7010A0003EEE5 /* tags.h */; };
 		279A7E9C18A89AB8007AA2CC /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5261F13E7013E0003EEE5 /* config.h */; };
 		279A7E9D18A89AB8007AA2CC /* NSString+GHMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A744F57C13E737DF0038C189 /* NSString+GHMarkdownParser.h */; };
+		568D2A5A1DD5D0ED00CE3735 /* GHMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C525FA13E6FE1A0003EEE5 /* GHMarkdownParser.h */; };
+		568D2A5B1DD5D0ED00CE3735 /* GHMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C525FA13E6FE1A0003EEE5 /* GHMarkdownParser.h */; };
 		A744F57E13E737DF0038C189 /* NSString+GHMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A744F57C13E737DF0038C189 /* NSString+GHMarkdownParser.h */; };
 		A744F57F13E737DF0038C189 /* NSString+GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A744F57D13E737DF0038C189 /* NSString+GHMarkdownParser.m */; };
 		A7C525F613E6FE1A0003EEE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C525F513E6FE1A0003EEE5 /* Foundation.framework */; };
@@ -186,6 +188,7 @@
 				279A7E9918A89AB8007AA2CC /* mkdio.h in Headers */,
 				279A7E9A18A89AB8007AA2CC /* markdown.h in Headers */,
 				279A7E9B18A89AB8007AA2CC /* tags.h in Headers */,
+				568D2A5A1DD5D0ED00CE3735 /* GHMarkdownParser.h in Headers */,
 				279A7E9C18A89AB8007AA2CC /* config.h in Headers */,
 				279A7E9D18A89AB8007AA2CC /* NSString+GHMarkdownParser.h in Headers */,
 			);
@@ -198,6 +201,7 @@
 				A7C5260613E700910003EEE5 /* mkdio.h in Headers */,
 				A7C5260A13E700A00003EEE5 /* markdown.h in Headers */,
 				A7C5261C13E7010A0003EEE5 /* tags.h in Headers */,
+				568D2A5B1DD5D0ED00CE3735 /* GHMarkdownParser.h in Headers */,
 				A7C5262013E7013E0003EEE5 /* config.h in Headers */,
 				A744F57E13E737DF0038C189 /* NSString+GHMarkdownParser.h in Headers */,
 			);
@@ -414,6 +418,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "i386 x86_64 armv7s armv7 arm64";
 			};
 			name = Debug;
 		};
@@ -427,6 +432,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "i386 x86_64 armv7s armv7 arm64";
 			};
 			name = Release;
 		};
